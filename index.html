@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Equations</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+	</head>
+<body>
+	<div class="grid">
+	<header class="left">
+		<h1 class="title">Equations</h1>
+		<div class="square">
+			<button class="item specificName" id="Quadratic">Quadratic Equation</button>
+			<button class="item specificName" id="Midpoint">Midpoint Formula</button>
+			<button class="item specificName" id="Distance">Distance Formula</button>
+			<button class="item specificName" id="Pythagorean">Pythagorean Theorem</button>
+			<button class="item specificName" id="Circle">Circle</button>
+			<button class="item specificName" id="Triangle">Triangle</button>
+			<button class="item specificName" id="Exponential">Exponential</button>
+		</div>
+	</header>
+	<div class="box">
+	<canvas id="canvas" width="500" height="500">
+
+	</canvas>
+	<header class="right">
+		<section id="equation">
+			<div class="equation-popup"></div>
+			<div class="answer" id="answer">	
+			</div>
+		</section>
+	</header>
+	</div>
+	<script type="text/javascript" src="mustache.js"></script>
+	<script type="text/javascript" src="equationData.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="canvas.js"></script>
+</body>
+
+<!--
+*******************
+TO DO
+*******************
+- Add perimeter feature for triangle
+- Edit profile image
+-->
